@@ -47,6 +47,7 @@ export const EMBEDDING_MODEL_PROFILES: EmbeddingModelProfiles = {
 		"text-embedding-3-small": { dimension: 1536, scoreThreshold: 0.4 },
 		"text-embedding-3-large": { dimension: 3072, scoreThreshold: 0.4 },
 		"text-embedding-ada-002": { dimension: 1536, scoreThreshold: 0.4 },
+		"cohere.embed-multilingual-v3": { dimension: 1024, scoreThreshold: 0.4 },
 		"nomic-embed-code": {
 			dimension: 3584,
 			scoreThreshold: 0.15,
